@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{{ page.title }}</title>
+		{% seo %}
+		<!-- link to main stylesheet -->
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+		<base target="_blank">
+
+	</head>
+	<body>
+		<nav>
+    		<ul>
+        		<li><a href="/" target="_self">Home</a></li>
+	        	<li><a href="/about" target="_self">Contact</a></li>
+        		<li><a href="/cv" target="_self">CV</a></li>
+        		<li><a href="/blog" target="_self">Other</a></li>
+    		</ul>
+		</nav>
+		<div class="container">
+			
+			{{ content }}
+			
+		</div><!-- /.container -->
+		<footer>
+    		<ul>
+        		<li><a href="mailto:apteadhishree@gmail.com">email</a></li>
+        		<li><a href="https://www.linkedin.com/in/adhishree-apte-7117b5169/">LinkedIn</a></li>
+        		<li><a href="https://www.instagram.com/kokani_coconut/">Instagram</a></li>
+        		<li><a href="https://github.com/danube01">github.com/danube01</a></li>
+        		
+			</ul>
+		</footer>
+	</body>
+</html>
